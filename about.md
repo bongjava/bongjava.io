@@ -4,17 +4,15 @@ title: About
 permalink: /about/
 ---
 
-GitHub Blog를 시작합니다. GitHub blog의 주소는 [http://thdev.tech](http://thdev.tech)입니다.
-앞으로 개발과 관련된 글은 이곳에 작성하게 됩니다.
-기존의 글과 기존 글들은 모두 기존 블로그에 분리하려고 합니다.
+아저씨가 된 후로는 '새로운 일을 할 수 있는 나이가 아닌가 싶다'라는 생각을 많이 한다. 앞으로 얼마나 할지는 모르겠지만, 하나씩 해보련다...뭐든...
 
-### 새로운 블로그 주소
-[http://thdev.tech](http://thdev.tech)
+### 페이스북
+[https://www.facebook.com/bongjava](https://www.facebook.com/bongjava)
 
-### 기존 블로그 링크
+### 재현이 블로그
 
-[꿈 많은 개발자가 되자! Tae-hwan](http://thdev.net)
+[재현이네집](http://baby.bongjava.com)
 
 ### Contact me
 
-[taehwan@thdev.tech](mailto:taehwan@thdev.tech)
+[bongjava@gmail.com](mailto:bongjava@gmail.com)
