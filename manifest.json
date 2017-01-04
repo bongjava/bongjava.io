@@ -1,5 +1,5 @@
 {
-  "name": "꿈 많은 개발자가 되자! GitHub blog",
+  "name": "나는 아저씨다",
   "icons": [
     {
       "src": "images/logo/launcher-icon-0-75x.png",
@@ -32,7 +32,7 @@
       "type": "image/png"
     }
   ],
-  "short_name": "TaeHwanDev",
+  "short_name": "Bongjava",
   "start_url": "index.html",
   "display": "standalone",
   "orientation": "any",
