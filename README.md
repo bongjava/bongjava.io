@@ -5,14 +5,13 @@ Jekyll-now Repository을 fork하여 작성한 블로그입니다.
 
 [Jekyll now Repository](https://github.com/barryclark/jekyll-now)
 
-<!--
+
 ## Domain
 
-- [http://thdev.tech](http://thdev.tech)
-- [http://taehwandev.github.io](http://taehwandev.github.io)
+- [http://bongjava.com](http://bongjava.com)
 
 ## Contacts
-E-mail : [taehwan@thdev.tech](mailto:taehwan@thdev.tech)
+E-mail : [bongjava@gmail.com](mailto:bongjava@gmail.com)
 
 ## License
 
@@ -36,4 +35,4 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
+
