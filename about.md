@@ -1,18 +1,30 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-아저씨가 된 후로는 '새로운 일을 할 수 있는 나이가 아닌가 싶다'라는 생각을 많이 한다. 앞으로 얼마나 할지는 모르겠지만, 하나씩 해보련다...뭐든...
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-### 페이스북
-[https://www.facebook.com/bongjava](https://www.facebook.com/bongjava)
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-### 재현이 블로그
+There are currently two themes built on Poole:
 
-[재현이네집](http://baby.bongjava.com)
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-### Contact me
+Learn more and contribute on [GitHub](https://github.com/poole).
 
-[bongjava@gmail.com](mailto:bongjava@gmail.com)
+## Setup
+
+Some fun facts about the setup of this project include:
+
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+
+Thanks for reading!
