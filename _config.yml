@@ -8,13 +8,13 @@ permalink:        pretty
 
 # Setup
 title:            Bongjava
-tagline:          'Bongjava`s blog'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+tagline:          '봉자바 블로그'
+description:      '봉자바의 블로그입니다.'
 url:              http://bongjava.com
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           '봉자바'
+  url:            https://www.facebook.com/bongjava
 
 paginate:         5
 
