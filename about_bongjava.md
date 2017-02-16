@@ -11,6 +11,12 @@ title: About Bongjava
 
 * [e-mail : bongjava@gmail.com](mailto:bongjava@gmail.com)
 
+## Education
+<p class="message">
+  - 동국대학교 일반대학원 컴퓨터공학전공 — 석사 졸업, 2003.03 - 2005.02<br>
+  - 동국대학교 이과대학 물리학과 — 학부 졸업, 1998.03 - 2002.08<br>
+</p>
+
 ## Experience
 
 ### (주)옐로모바일(옐로쇼핑미디어) 개발본부 안드로이드 개발팀장 — 2014.10 - PRESENT
