@@ -1,68 +1,100 @@
-# Hueman
-#### Probably the most beautiful theme for Hexo. [Preview](http://ppoffice.github.io/hexo-theme-hueman/)
+# Lanyon
 
-![Hueman](http://ppoffice.github.io/hexo-theme-hueman/gallery/screenshot.jpg "")
+Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
-> This theme is ported from [AlxMedia](https://github.com/AlxMedia)'s the WordPress theme [Hueman](https://github.com/AlxMedia/hueman).
+![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
+![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
 
-> Special thanks to [AlxMedia](https://github.com/AlxMedia), who designed the original theme [Hueman](https://github.com/AlxMedia/hueman) for wordpress.
 
-#### [View Documentation](https://github.com/ppoffice/hexo-theme-hueman/wiki)
-:star: It is strongly recommended that you read the docs before using Hueman.
+## Contents
 
-## Features
+- [Usage](#usage)
+- [Options](#options)
+  - [Sidebar menu](#sidebar-menu)
+  - [Themes](#themes)
+  - [Reverse layout](#reverse-layout)
+- [Development](#development)
+- [Author](#author)
+- [License](#license)
 
-### Responsive Layout
 
-Hueman knows on what screen size you are browsering the website, and reorganize the layout to fit your device.
+## Usage
 
-![](http://ppoffice.github.io/hexo-theme-hueman/gallery/responsive.jpg "")
+Lanyon is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
-### Categories inside Main Menu
 
-Hueman inserts your blog categories into main menu in the header section. You can enable/disable this feature in `menu` setting.
+## Options
 
-![](http://ppoffice.github.io/hexo-theme-hueman/gallery/main-menu.jpg "")
+Lanyon includes some customizable options, typically applied via classes on the `<body>` element.
 
-### Self-hosted Insite Search Engine
-With the help of [Insight Search](https://github.com/ppoffice/hexo-theme-hueman/wiki/Search#insight-search), you can search anything inside your site without any third-party plugin.
 
-![](http://ppoffice.github.io/hexo-theme-hueman/gallery/insight-search.png "")
+### Sidebar menu
 
-### Custom Comment Services
-Hueman supports several comment services, give you better choices to communicate with your readers.
+Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
 
-![](http://ppoffice.github.io/hexo-theme-hueman/gallery/custom-comments.png "")
+```
+---
+layout: page
+title: About
+---
+```
 
-### Thumbnail
+**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
 
-Hueman uses the `thumbnail` [front-matter](https://hexo.io/docs/front-matter.html) option to set the thumbnail for a post. If the post does not have a `thumbnail` option, Hueman will find the first image in the post as the thumbnail. You can enable/disable this feature in `thumbnail` setting.
 
-![](http://ppoffice.github.io/hexo-theme-hueman/gallery/thumbnail.jpg "")
+### Themes
 
-### Code Highlight
-Hueman has more than 60 themes imported from [Highlight.js](https://github.com/isagalaev/highlight.js), and it is very easy to customize your own highlight theme.
+Lanyon ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
 
-![](http://ppoffice.github.io/hexo-theme-hueman/gallery/code-highlight.png "")
+![Lanyon with red theme](https://f.cloud.github.com/assets/98681/1825270/be065110-71b0-11e3-9ed8-9b8de753a4af.png)
+![Lanyon with red theme and open sidebar](https://f.cloud.github.com/assets/98681/1825269/be05ec20-71b0-11e3-91ea-a9138ef07186.png)
 
-### lightgallery
+There are eight themes available at this time.
 
-Hueman uses [lightgallery.js](https://sachinchoolur.github.io/lightgallery.js/) to showcase your photos. Just enable it in your configuration, and that's all!
+![Available theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
 
-![](http://ppoffice.github.io/hexo-theme-hueman/gallery/lightgallery.jpg "")
+To use a theme, add any one of the available theme classes to the `<body>` element in the `default.html` layout, like so:
 
-### Sidebar
+```html
+<body class="theme-base-08">
+  ...
+</body>
+```
 
-Hueman provides 6 built-in widgets:
+To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/lanyon/blob/master/public/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
-- recent_posts
-- category
-- archives
-- tag
-- tagcloud
-- links
 
-All of them are enabled by default. You can edit them in `widget` setting.
+### Reverse layout
 
-### And so many new features to be explored...
-[View Documentation](https://github.com/ppoffice/hexo-theme-hueman/wiki)
+![Lanyon with reverse layout](https://f.cloud.github.com/assets/98681/1825265/be03f2e4-71b0-11e3-89f1-360705524495.png)
+![Lanyon with reverse layout and open sidebar](https://f.cloud.github.com/assets/98681/1825268/be056174-71b0-11e3-88c8-5055bca4307f.png)
+
+Reverse the page orientation with a single class.
+
+```html
+<body class="layout-reverse">
+  ...
+</body>
+```
+
+
+## Development
+
+Lanyon has two branches, but only one is used for active development.
+
+- `master` for development.  **All pull requests should be to submitted against `master`.**
+- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
+
+
+## Author
+
+**Mark Otto**
+- <https://github.com/mdo>
+- <https://twitter.com/mdo>
+
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
+
+<3
