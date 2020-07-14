@@ -1,10 +1,38 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Test</title>
+    <style type="text/css">
+        #container {
+            margin-top: 30pt;
+        }
+        button {
+            background-color: gray;
+            border: none;
+            padding: 10pt;
+            font-size: 20pt;
+            width: 50%;
+			height: 100pt
+        }
+    </style>
+    <script type="text/javascript">
+    
+        function callHome() {
+            location.href='zipview://home'
+		}
+		
+		function callTour() {
+            location.href='zipview://tour?code=ZV168'
+		}
+    
+    </script>
+</head>
 
+<body>
+    <div id='container'>
+        <button onclick='callHome();' style='margin-top: 100px'>집뷰 앱실행</button></br>
+        <button onclick='callTour();' style='margin-top: 100px'>단지홈 이동</button></br>
+    </div>
+</body>
 
-<h1>
-<a href = "zipview://tour?code=ZV168">
-단지홈
-      </a>
-    </h1>
+</html>
