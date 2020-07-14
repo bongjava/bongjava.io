@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [ ],
+        "details": [
+            {
+                "appID": "UR4D8P9MGN.zipview",
+                "paths": [ "/example", "*/example2/*", "/detail/*", "NOT /detail/old" ]
+            },
+        ]
+    }
+}
