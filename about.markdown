@@ -1,6 +1,7 @@
 ---
+title: About
 layout: page
-title: About Bongjava
+permalink: "/about/"
 ---
 
 <p class="message">
