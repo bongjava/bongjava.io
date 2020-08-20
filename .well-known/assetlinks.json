@@ -1,9 +1,0 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.zipviewapp",
-      "sha256_cert_fingerprints":
-      ["07:DA:74:09:B0:90:3E:1B:EF:91:92:66:A2:96:48:91:E4:5D:A0:F2:92:B6:EB:FB:35:C7:1B:57:19:A5:53:F2"]
-    }
-  }]
